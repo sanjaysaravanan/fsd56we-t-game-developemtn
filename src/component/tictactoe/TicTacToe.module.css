@@ -1,0 +1,61 @@
+.board-outter {
+  background-color: blue;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  color: white
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 164px;
+  font-weight: 700;
+}
+
+.line {
+  position: absolute;
+  background-color: white;
+}
+
+.line-vertical {
+  height: 600px;
+  width: 10px;
+  top: 0;
+}
+
+.line-one {
+  left: 195px;
+}
+
+.line-two {
+  left: 395px;
+}
+
+.line-horizontal {
+  left: 0;
+  height: 10px;
+  width: 600px;
+}
+
+.line-three {
+  top: 195px;
+}
+
+.line-four {
+  top: 395px;
+}
